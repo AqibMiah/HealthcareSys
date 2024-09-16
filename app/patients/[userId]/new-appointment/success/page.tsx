@@ -74,6 +74,10 @@ const Success = async ({ params: { userId }, searchParams}: SearchParamProps) =>
                     New appointment
                 </Link>
             </Button>
+
+            <p className='copyright'>
+                &copy; 2024 CarePulse.
+            </p>
         </div>
     </div>
   )
